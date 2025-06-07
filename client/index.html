@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Rift of Unity</title>
+    <style>
+      :root {
+        --color-faith: #FFD700;
+        --color-compassion: #FF6B6B;
+        --color-strength: #8B4513;
+        --color-wisdom: #4682B4;
+        --color-truth: #DEB887;
+        --color-unity: #32CD32;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: linear-gradient(135deg, #2c1810 0%, #8B4513 50%, #DEB887 100%);
+        font-family: 'Inter', serif;
+      }
+      
+      canvas {
+        display: block;
+        cursor: crosshair;
+      }
+      
+      .ethiopian-pattern {
+        background: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 2px,
+          rgba(255, 215, 0, 0.1) 2px,
+          rgba(255, 215, 0, 0.1) 4px
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
